@@ -9,7 +9,7 @@ The analysis was implemented in **Google Colab** and saved here as a Jupyter not
 
 ## Dataset
 
-- Source: Chicago Air Quality / Pollution dataset (historical data for Chicago) [web:62].
+- Source: Chicago Air Quality / Pollution dataset (historical data for Chicago).
 - File used: `chicago-air-pollution.csv`
 - Main columns:
   - `city` – city name (filtered to Chicago)
@@ -36,8 +36,8 @@ The analysis was implemented in **Google Colab** and saved here as a Jupyter not
 ## Notebook
 
 - `chicago_aqi_analysis.ipynb` – main analysis notebook  
-  - Can be opened directly on GitHub (static view) [web:113]  
-  - Or run in Colab via the “Open in Colab” badge (if enabled when saving from Colab) [web:133][web:137]
+  - Can be opened directly on GitHub (static view)  
+  - Or run in Colab via the “Open in Colab” badge (if enabled when saving from Colab)
 
 The notebook includes:
 
@@ -54,7 +54,7 @@ The notebook includes:
 
 ## Key Findings (Summary)
 
-- **Seasonality:** Ozone shows the strongest seasonal pattern, with much higher average levels in summer than in winter, consistent with temperature‑driven ozone formation [web:92][web:98].  
+- **Seasonality:** Ozone shows the strongest seasonal pattern, with much higher average levels in summer than in winter, consistent with temperature‑driven ozone formation.  
 - **Temperature relationships:** Temperature is strongly positively associated with ozone (r ≈ 0.64). PM10 has a moderate positive correlation with temperature (r ≈ 0.32), while NO₂ shows almost no linear association (r ≈ −0.03).  
 - **Trends over time:** Yearly averages suggest that PM10 has declined over the period studied (from low 40s to high 20s), while PM2.5 and NO₂ show mild downward trends and ozone remains relatively stable.
 
