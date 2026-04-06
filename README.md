@@ -1,6 +1,6 @@
 # Chicago Air Quality Analysis
 
-This repository contains a data analysis project for **CSCI 503 – Programming Principles in Python (NIU)**.  
+This repository contains a data analysis project applying from **CSCI 503 – Programming Principles in Python (NIU)**.  
 The goal is to explore how air pollution levels in Chicago relate to temperature and seasons.
 
 The analysis was implemented in **Google Colab** and saved here as a Jupyter notebook.
