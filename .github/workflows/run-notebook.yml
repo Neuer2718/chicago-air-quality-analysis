@@ -12,6 +12,6 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install jupyter nbconvert pandas matplotlib seaborn
+        run: pip install jupyter nbconvert pandas numpy matplotlib seaborn scipy
       - name: Run notebook
         run: jupyter nbconvert --to notebook --execute chicago_aqi_analysis.ipynb
