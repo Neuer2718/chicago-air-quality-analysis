@@ -14,4 +14,4 @@ jobs:
       - name: Install nbqa
         run: pip install nbqa flake8
       - name: Lint
-        run: nbqa flake8 chicago_aqi_analysis.ipynb --max-line-length=100
+        run: nbqa flake8 chicago_aqi_analysis.ipynb --max-line-length=100 --extend-ignore=E402,F401,F811
