@@ -1,0 +1,17 @@
+# .github/workflows/lint.yml
+name: Lint Notebook
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install nbqa
+        run: pip install nbqa flake8
+      - name: Lint
+        run: nbqa flake8 chicago_aqi_analysis.ipynb --max-line-length=100
